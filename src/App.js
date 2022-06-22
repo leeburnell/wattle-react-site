@@ -54,6 +54,7 @@ const App = () => {
 			<Routes>
 				<Route path={process.env.PUBLIC_URL + "/"} element={<DigitalAgency />}/>
 
+
 				{/* Blogs */}
 				<Route path={process.env.PUBLIC_URL + "/blog-grid/"} element={<BlogGridView />}/>
 				<Route path={process.env.PUBLIC_URL + "/category/:slug"} element={<BlogCategory />}/>
