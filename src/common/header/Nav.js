@@ -8,15 +8,15 @@ const Nav = () => {
         <nav className="mainmenu-nav">
             <ul className="mainmenu">
                 <li className="menu-item-has-children">
-                    <Link to="#">Digital Agency <FaAngleDown /> </Link>
+                    <Link to="#">About <FaAngleDown /> </Link>
                     <ul className="axil-submenu">
-                        <li><Link to={process.env.PUBLIC_URL + "/digital-agency"}>Digital Agency</Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + "/about-us"}>About Wattle</Link></li>
                     </ul>
                 </li>
                 <li className="menu-item-has-children">
                     <Link to="#">Services <FaAngleDown /></Link>
                     <ul className="axil-submenu">
-                        <li><Link to={process.env.PUBLIC_URL + "/service-one"}>Service</Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + "/about-us"}>Service</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/service-two"}>Service Two</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/service-details/design"}>Service Details</Link></li>
                     </ul>

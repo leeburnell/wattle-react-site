@@ -42,7 +42,8 @@
         }
         &:hover {
             background-color: var(--color-link);
-            border-color: var(--color-link);
+            border-color: var(--color-dark);
+            color: var(--color-dark);
             &::after {
                 transform: translateY(-50%) translateX(-50%) scale(1);
             }

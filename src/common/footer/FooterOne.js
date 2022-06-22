@@ -32,7 +32,7 @@ const FooterOne = ({parentClass}) => {
                                         <div className="input-group">
                                             <span className="mail-icon"><FaEnvelopeOpen /> </span>
                                             <input type="email" className="form-control" placeholder="Email address" />
-                                            <button className="subscribe-btn" type="submit">Subscribe</button>
+                                            <button className="subscribe-btn" type="submit">Say hi!</button>
                                         </div>
                                     </form>
                                 </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Offcanvas from 'react-bootstrap/Offcanvas'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaBehance, FaPhone, FaFax } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaPhone, FaInstagram } from "react-icons/fa";
 
 
 const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
@@ -18,11 +18,7 @@ const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
                 <div className="row ">
                     <div className="col-lg-5 col-xl-6">
                         <ul className="main-navigation list-unstyled">
-                            <li><Link to={process.env.PUBLIC_URL + "/digital-agency"}>Digital Agency</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/creative-agency"}>Creative Agency</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/personal-portfolio"}>Personal Portfolio</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/home-startup"}>Home Startup</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/corporate-agency"}>Corporate Agency</Link></li>
+                            <li><Link to={process.env.PUBLIC_URL + "/digital-agency"}>We Are Wattle</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-7 col-xl-6">
@@ -30,12 +26,11 @@ const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
                             <div className="contact-inner">
                                 <address className="address">
                                     <span className="title">Contact Information</span>
-                                    <p>Theodore Lowe, Ap #867-859 <br /> Sit Rd, Azusa New York</p>
+                                    <p>123 Bristol Road <br /> Bristol</p>
                                 </address>
                                 <address className="address">
                                     <span className="title">We're Available 24/7. Call Now.</span>
-                                    <a href="tel:8884562790" className="tel"><FaPhone /> (888) 456-2790</a>
-                                    <a href="tel:12125553333" className="tel"><FaFax /> (121) 255-53333</a>
+                                    <a href="tel:8884562790" className="tel"><FaPhone /> 0117 123123</a>
                                 </address>
                             </div>
                             <div className="contact-inner">
@@ -50,7 +45,7 @@ const OffcanvasMenu = ({offcanvasShow, offcanvasHide}) => {
                                             <a href="https://twitter.com/"><FaTwitter /></a>
                                         </li>
                                         <li>
-                                            <a href="https://www.behance.net/"><FaBehance /></a>
+                                            <a href="https://www.behance.net/"><FaInstagram /></a>
                                         </li>
                                         <li>
                                             <a href="https://www.linkedin.com/"><FaLinkedinIn /></a>

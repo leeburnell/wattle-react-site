@@ -39,7 +39,6 @@ import PricingTable from './pages/PricingTable';
 import Typography from './pages/Typography';
 import Contact from './pages/Contact';
 import ErrorPage from './pages/404';
-import ComingSoon from './pages/ComingSoon';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfUse from './pages/TermsOfUse';
 
@@ -87,7 +86,6 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/typography"} element={<Typography />}/>
 				<Route path={process.env.PUBLIC_URL + "/contact"} element={<Contact />}/>
 				<Route path={process.env.PUBLIC_URL + "/404"} element={<ErrorPage />}/>
-				<Route path={process.env.PUBLIC_URL + "/coming-soon"} element={<ComingSoon />}/>
 				<Route path={process.env.PUBLIC_URL + "/privacy-policy"} element={<PrivacyPolicy />}/>
 				<Route path={process.env.PUBLIC_URL + "/terms-use"} element={<TermsOfUse />}/>
 
