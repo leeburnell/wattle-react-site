@@ -6,7 +6,7 @@ const SEO = ( {title} ) => {
     return (
         <>
             <meta charSet="utf-8" />
-            <title>Abstrak | {title}</title>
+            <title>Wattle | Your MemExperts</title>
             <meta name="robots" content="noindex, follow" />
             <meta name="description" content="Wattle, A Digital Agency In Bristol" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
