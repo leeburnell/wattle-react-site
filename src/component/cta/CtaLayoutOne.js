@@ -12,7 +12,7 @@ const CtaLayoutOne = () => {
                     <div className="section-heading heading-light">
                         <span className="subtitle">Let's Work Together</span>
                         <h2 className="title">Need a successful project?</h2>
-                        <Link to={process.env.PUBLIC_URL + "/contact"} className="axil-btn btn-large btn-fill-white">
+                        <Link to={process.env.PUBLIC_URL + "/contact"} className="wattle-btn btn-large btn-fill-white">
                             Estimate Project
                         </Link>
                     </div>

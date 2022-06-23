@@ -35,7 +35,7 @@ const FormTwo = () => {
 
 
     return (
-        <form ref={form} onSubmit={sendEmail} className="axil-contact-form">
+        <form ref={form} onSubmit={sendEmail} className="wattle-contact-form">
         <div className="form-group">
             <label>Name</label>
             <input type="text" className="form-control" name="contact-name" required />
@@ -54,7 +54,7 @@ const FormTwo = () => {
             
         </div>
         <div className="form-group">
-            <button type="submit" className="axil-btn btn-fill-primary btn-fluid btn-primary" name="submit-btn">Get Pricing Now</button>
+            <button type="submit" className="wattle-btn btn-fill-primary btn-fluid btn-primary" name="submit-btn">Get Pricing Now</button>
         </div>
         <div className="form-group">
             {result ? <Result /> : null}

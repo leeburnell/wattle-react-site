@@ -25,7 +25,7 @@ const HeaderOne = () => {
         for(var i in elements) {
             if(elements.hasOwnProperty(i)) {
                 elements[i].onclick = function() {
-                    this.parentElement.querySelector('.axil-submenu').classList.toggle("active");
+                    this.parentElement.querySelector('.wattle-submenu').classList.toggle("active");
                     this.classList.toggle("open");
                 }
             }
@@ -35,8 +35,8 @@ const HeaderOne = () => {
 
     return (
         <>
-            <header className="header axil-header header-style-1">
-                <div className={`axil-mainmenu ${sticky ? "axil-sticky" : ""}`}>
+            <header className="header wattle-header header-style-1">
+                <div className={`wattle-mainmenu ${sticky ? "wattle-sticky" : ""}`}>
                     <div className="container">
                         <div className="header-navbar">
                             <div className="header-logo">

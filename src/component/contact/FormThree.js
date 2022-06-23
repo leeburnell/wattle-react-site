@@ -35,7 +35,7 @@ const FormThree = () => {
 
 
     return (
-        <form ref={form} onSubmit={sendEmail} className="axil-contact-form">
+        <form ref={form} onSubmit={sendEmail} className="wattle-contact-form">
         <div className="form-group">
             <label>Name</label>
             <input type="text" className="form-control" name="contact-name" placeholder="John Smith" required />

@@ -9,13 +9,13 @@ const Nav = () => {
             <ul className="mainmenu">
                 <li className="menu-item-has-children">
                     <Link to="#">About <FaAngleDown /> </Link>
-                    <ul className="axil-submenu">
+                    <ul className="wattle-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/about-us"}>About Wattle</Link></li>
                     </ul>
                 </li>
                 <li className="menu-item-has-children">
                     <Link to="#">Services <FaAngleDown /></Link>
-                    <ul className="axil-submenu">
+                    <ul className="wattle-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/about-us"}>Service</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/service-two"}>Service Two</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/service-details/design"}>Service Details</Link></li>
@@ -23,7 +23,7 @@ const Nav = () => {
                 </li>
                 <li className="menu-item-has-children">
                     <Link to="#">Portfolio <FaAngleDown /></Link>
-                    <ul className="axil-submenu">
+                    <ul className="wattle-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/project-grid-one"}>Two Column</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/project-grid-two"}>Three Column</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/project-grid-three"}>Four Column</Link></li>
@@ -34,7 +34,7 @@ const Nav = () => {
                 </li>
                 <li className="menu-item-has-children">
                     <Link to="#">Pages <FaAngleDown /></Link>
-                    <ul className="axil-submenu">
+                    <ul className="wattle-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/about-us"}>About Us</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/our-office"}>Our Office</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/case-study"}>Case Study</Link></li>
@@ -51,7 +51,7 @@ const Nav = () => {
                 </li>
                 <li className="menu-item-has-children">
                     <Link to="#">Blog <FaAngleDown /></Link>
-                    <ul className="axil-submenu">
+                    <ul className="wattle-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/blog-grid"}>Blog</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/1"}>Standard Post</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/2"}>Gallery Post</Link></li>

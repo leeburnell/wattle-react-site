@@ -32,7 +32,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-6 offset-xl-1">
-                            <div className="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
+                            <div className="contact-info mb--100 mb_md--30 mt_md--0">
                                 <h4 className="title">Phone</h4>
                                 <p>Our office is open from Mon-Fri, 09:00 am to 6:00 pm</p>
                                 <h4 className="phone-number"><a href="tel:1234567890">0117123123</a></h4>

@@ -1,7 +1,7 @@
 /*-------------------------
    Header Styles
 -------------------------*/
-.axil-header {
+.wattle-header {
     position: absolute;
     width: 100%;
     left: 0;
@@ -40,8 +40,8 @@
         }
     }
     &.header-style-1 {
-        .axil-mainmenu {
-            &.axil-sticky {
+        .wattle-mainmenu {
+            &.wattle-sticky {
                  .header-navbar {
                     .header-logo {
                         .light-version-logo {
@@ -56,7 +56,7 @@
         }
     } 
     &.header-style-2 {
-        .axil-mainmenu {
+        .wattle-mainmenu {
             padding: 50px 80px;
             @media #{$laptop-device} {
                 padding: 35px 15px;
@@ -67,7 +67,7 @@
             @media #{$large-mobile} {
                 padding: 30px 0;
             }
-            &.axil-sticky {
+            &.wattle-sticky {
                 padding: 15px 80px;
                 @media #{$laptop-device} {
                     padding: 15px;
@@ -85,8 +85,8 @@
         }
     }
     &.header-style-3 {
-        .axil-mainmenu {
-            &.axil-sticky {
+        .wattle-mainmenu {
+            &.wattle-sticky {
                  .header-navbar {
                     .header-logo {
                         .light-version-logo {
@@ -124,7 +124,7 @@
             }
             .mainmenu {
                 .menu-item-has-children {
-                    .axil-submenu {
+                    .wattle-submenu {
                         background-color: var(--color-dark);
                         li {
                             a {
@@ -158,8 +158,8 @@
             }
         }
         
-        .axil-mainmenu {
-            &.axil-sticky {
+        .wattle-mainmenu {
+            &.wattle-sticky {
                 background-color: var(--color-dark);
             }
         }
@@ -184,7 +184,7 @@
         }
         .header-action {
             .header-btn {
-                .axil-btn {
+                .wattle-btn {
                     display: block;
                 }
             }
@@ -193,7 +193,7 @@
 }
 
 
-.axil-mainmenu {
+.wattle-mainmenu {
     padding: 50px 0;
     transition: var(--transition);
     @media #{$laptop-device} {
@@ -202,7 +202,7 @@
     @media #{$smlg-device} {
         padding: 30px 0;
     }
-    &.axil-sticky {
+    &.wattle-sticky {
         position: fixed;
         top: 0;
         right: 0;
@@ -297,7 +297,7 @@
                 font-size: 14px;
             }
         }
-        .axil-submenu {
+        .wattle-submenu {
             position: absolute;
             top: 100%;
             left: 20px;
@@ -354,7 +354,7 @@
             }
         }
         &:hover {
-            .axil-submenu {
+            .wattle-submenu {
                 opacity: 1;
                 visibility: visible;
                 z-index: 9;
@@ -497,12 +497,12 @@
     .header-btn {
         margin-right: 0;
         @media only screen and (max-width: 1399px) {
-            .axil-btn {
+            .wattle-btn {
                 padding: 15px 40px;
             }
         }
         @media #{$lg-layout} {
-            .axil-btn {
+            .wattle-btn {
                 padding: 15px 25px;
             }
         }
@@ -812,8 +812,8 @@
         }
     }
    
-    .axil-mainmenu {
-        &.axil-sticky {
+    .wattle-mainmenu {
+        &.wattle-sticky {
             animation: none;
         }
     }
@@ -836,7 +836,7 @@
                 }
             }
             .menu-item-has-children {
-                .axil-submenu {
+                .wattle-submenu {
                     display: none;
                     position: initial;
                     visibility: visible;
@@ -860,7 +860,7 @@
                     }
                 }
                 &.menu-item-open {
-                    .axil-submenu {
+                    .wattle-submenu {
                         display: block;
                     }
                 }
