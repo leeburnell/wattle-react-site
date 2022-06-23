@@ -8,7 +8,6 @@ import BlogOne from '../component/blog/BlogOne';
 import BrandOne from '../component/brand/BrandOne';
 import CounterUpOne from '../component/counterup/CounterUpOne';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
-import PricingOne from '../component/pricing/PricingOne';
 import ProjectOne from '../component/project/ProjectOne';
 import ServicePropOne from '../component/service/ServicePropOne';
 import TestimonialOne from '../component/testimonial/TestimonialOne';
@@ -59,7 +58,7 @@ const DigitalAgency = () => {
                         textAlignment=""
                         textColor=""
                     />
-                    <PricingOne />
+                    
                 </div>
                 <ul className="list-unstyled shape-group-3">
                     <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/line-1.png"} alt="shape" /></li>

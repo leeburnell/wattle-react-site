@@ -16,7 +16,7 @@ const Nav = () => {
                 <li className="menu-item-has-children">
                     <Link to="#">Services <FaAngleDown /></Link>
                     <ul className="wattle-submenu">
-                        <li><Link to={process.env.PUBLIC_URL + "/about-us"}>Service</Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + "/service-one"}>Service</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/service-two"}>Service Two</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/service-details/design"}>Service Details</Link></li>
                     </ul>
@@ -56,8 +56,6 @@ const Nav = () => {
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/1"}>Standard Post</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/2"}>Gallery Post</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/3"}>Video Post</Link></li>
-                        {/* <li><Link to={process.env.PUBLIC_URL + "#"}>Audio Post</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "#"}>Quote Post</Link></li> */}
                     </ul>
                 </li>
                 <li><Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>

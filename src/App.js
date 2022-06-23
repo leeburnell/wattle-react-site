@@ -35,7 +35,6 @@ import TeamDetails from './pages/TeamDetails';
 import CaseStudy from './pages/CaseStudy';
 import CaseDetails from './pages/CaseStudyDetails';
 import Testimonials from './pages/Testimonials';
-import PricingTable from './pages/PricingTable';
 import Typography from './pages/Typography';
 import Contact from './pages/Contact';
 import ErrorPage from './pages/404';
@@ -82,7 +81,6 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/case-study"} element={<CaseStudy />}/>
 				<Route path={process.env.PUBLIC_URL + "/case-details/:slug"} element={<CaseDetails />}/>
 				<Route path={process.env.PUBLIC_URL + "/testimonials"} element={<Testimonials />}/>
-				<Route path={process.env.PUBLIC_URL + "/pricing-table"} element={<PricingTable />}/>
 				<Route path={process.env.PUBLIC_URL + "/typography"} element={<Typography />}/>
 				<Route path={process.env.PUBLIC_URL + "/contact"} element={<Contact />}/>
 				<Route path={process.env.PUBLIC_URL + "/404"} element={<ErrorPage />}/>
