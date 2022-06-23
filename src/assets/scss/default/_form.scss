@@ -95,6 +95,7 @@ input {
         transition: var(--transition);
         &:hover {
             background-color: var(--color-link);
+            color: var(--color-dark);
         }
         @media #{$small-mobile} {
             margin-top: 15px;
