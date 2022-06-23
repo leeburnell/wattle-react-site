@@ -34,13 +34,11 @@ const Comment = () => {
                         <div className="heading">
                             <h5 className="title">Ariana Gerad</h5>
                             <div className="comment-date">
-                                <p>February 14, 2021</p>
+                                <p>April 14, 2022</p>
                                 <button className="reply-btn"><FaReply /></button>
                             </div>
                         </div>
-                        <p>Email is a crucial channel in any marketing mix,
-                            and never has this been truer than for today’s entrepreneur. Curious
-                            what to say.</p>
+                        <p>Boopppppppppppp</p>
                     </div>
                 </div>
                 <div className="comment">
@@ -49,15 +47,13 @@ const Comment = () => {
                     </div>
                     <div className="content">
                         <div className="heading">
-                            <h5 className="title">Sophie Asveld</h5>
+                            <h5 className="title">Sophie Ellis Baxter</h5>
                             <div className="comment-date">
-                                <p>February 14, 2021</p>
+                                <p>February 17, 2020</p>
                                 <button className="reply-btn"><FaReply /></button>
                             </div>
                         </div>
-                        <p>Email is a crucial channel in any marketing mix,
-                            and never has this been truer than for today’s entrepreneur. Curious
-                            what to say.</p>
+                        <p>Booper</p>
                     </div>
                 </div>
             </div>
@@ -98,7 +94,7 @@ const Comment = () => {
                     </div>
                     <div className="col-lg-5">
                         <div className="form-group">
-                            <button type="submit" className="axil-btn btn-fill-primary btn-fluid" name="submit-btn">Submit Now</button>
+                            <button type="submit" className="wattle-btn btn-fill-primary btn-fluid" name="submit-btn">Submit Now</button>
                         </div>
                     </div>
                 </div>
