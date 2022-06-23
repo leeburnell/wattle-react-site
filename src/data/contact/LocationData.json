@@ -2,22 +2,22 @@
 
     {
         "thumb": "/images/others/location-1.png",
-        "title": "Virginia-HQ",
-        "address": "435 Pouros Locks United States"
+        "title": "Deli @ here",
+        "utilities": "Onsite Deli!"
     },
     {
         "thumb": "/images/others/location-2.png",
-        "title": "Nevada",
-        "address": "46 Watsica Creek Suite 071 United States"
+        "title": "Gym",
+        "utilities": "Onsite Gym"
     },
     {
         "thumb": "/images/others/location-3.png",
-        "title": "Columbia",
-        "address": "7140 Wehner Tunnel Washington, D.C"
+        "title": "Pool table",
+        "utilities": "Breakout area"
     },
     {
         "thumb": "/images/others/location-4.png",
-        "title": "New Mexico",
-        "address": "10 Maggie Valleys United States"
+        "title": "Another thing!",
+        "utilities": "Another thing"
     }
 ]

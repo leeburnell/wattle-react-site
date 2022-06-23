@@ -20,7 +20,7 @@ const AboutFive = () => {
                         <span className="subtitle">Our Team</span>
                         <h2>Alone we can do so little; together we can do so much.</h2>  
                         <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero.</p>
-                        <Link to="#" className="axil-btn btn-large btn-fill-primary">Our Team</Link>
+                        <Link to="#" className="wattle-btn btn-large btn-fill-primary">Our Team</Link>
                     </div>
                     </div>
                 </div>

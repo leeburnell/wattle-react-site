@@ -10,8 +10,7 @@ const BannerFour = () => {
             <div className="container">
                 <div className="banner-content">
                     <h1 className="title">Think the design, design the thinking.</h1>
-                    <p>Create live segments and target the right people 
-                        for messages based on their behaviors.</p>
+                    <p>Boop Boop Boop</p>
                     <div>
                         <Link to={process.env.PUBLIC_URL + "/project-grid-one"} className="axil-btn btn-fill-primary btn-large">View Showcase</Link>
                     </div>

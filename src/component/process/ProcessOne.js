@@ -11,7 +11,7 @@ const ProcessOne = () => {
         <div className="section section-padding bg-color-light pb--70">
             <SectionTitle 
                 subtitle="Process"
-                title="Our logo design process"
+                title="Our build process"
                 description="Our comprehensive logo design strategy ensures a perfectly crafted logo for your business."
                 textAlignment=""
                 textColor="mb--90"
